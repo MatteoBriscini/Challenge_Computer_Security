@@ -1,4 +1,4 @@
-# mission6
+# mission6 ~ 
 ## Goal and instructions
 Connect to bin.chall.necst.it port 22 via SSH as user [USERNAME]. You will find the files in /home/[USERNAME]/mission6.
 
