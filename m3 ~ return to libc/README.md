@@ -49,4 +49,8 @@ To make the call to *system(“/bin/sh”)*, we need to set *“/bin/sh”* insi
 2. Figure out where to save the required parameters
 	- **/bin/sh** must be saved in *mess_addr* variable that corresponds to the *message* variable.
 	- **system address** must be saved in *addr* variable that corresponds to the *day*, *month* and *year* variable.
-		> **note:** the *system address* must be written in decimal 
+		> **note:** the *system address* must be written in decimal
+3. Execute the exploitation
+   	```
+    	./mission3
+	```
