@@ -1,4 +1,5 @@
 # Mission 1 ~ cross site scripting (XSS)
+## Goal and instructions
 People are worried AI will take over humankind. Personally, I think that's all bu****it. Can't even get an image of a bowl of rice without chopsticks...
 
 To validate your solution, please submit an URL belonging to the domain web2.chall.necst.it, which, when opened in a browser:

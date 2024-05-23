@@ -1,4 +1,5 @@
 # Mission 5 ~ cross site scripting
+## Goal and instructions
 Game of Apulia is the latest strategic, medieval game set in Puglia, Italy. Developed by Tarantella Tech, it pushes the boundaries of what it means to play videogames in 2024. Coming soon on PC, PS4, PS5, Xbox Series S and X, Nintendo Switch.
 
 To validate your solution, please submit an URL belonging to the domain web6.chall.necst.it, which, when opened in a browser:
