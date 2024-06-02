@@ -6,7 +6,7 @@ Author:
 - Matteo Briscini - [MatteoBriscini](https://github.com/MatteoBriscini)
 - Alessandro Conti - [AlessandroConti11](https://github.com/AlessandroConti11)
 
-Tags: `#buffer_overflow`, `#C`, `#computer_security`, `#format_string_bug`, `#polimi`, `#python`, `#ROP`, `#spectre`, `#software_engineering`.
+Tags: `#buffer_overflow`, `#C`, `#computer_security`, `#cookie`, `#cross-site_scripting`, `#format_string_bug`, `#JWT`, `#polimi`, `#python`, `#ROP`, `#spectre`, `#SQL_injection`, `#software_engineering`, `#XSS`.
 
 
 
@@ -23,14 +23,14 @@ Academic Year: 2023/2024.
 ## Specification
 
 This GitHub repository describes how to attack some C code and some vulnerable websites in the form of challenges.
-
-The challenges were carried out as optional activities and lasted 2 weeks, 1 for binary exploitation and the other for web exploitation.
+<br>
+The challenges were carried out as optional activities and lasted 2 weeks, 1 for binary exploitation and the other 1 for web exploitation.
 
 
 
 ## Folder structory
 
-- binary exploitation
+- [binary exploitation](https://github.com/MatteoBriscini/computer_security_challenges-polimi-/blob/master/binary%20exploitation/README.md)
   - m0 ~ buffer overflow
   - m1 ~ string format bugs
   - m2 ~ revers shell
@@ -39,7 +39,7 @@ The challenges were carried out as optional activities and lasted 2 weeks, 1 for
   - m5 ~ xor vulnerability
   - m6 ~ endianness problem
   - m7 ~ spectre attack
-- web explotation
+- [web explotation](https://github.com/MatteoBriscini/computer_security_challenges-polimi-/tree/master/web%20application%20security/README.md)
   - m0 ~ SQL injection
   - m1 ~ cross site scripting (XSS)
   - m2 ~ JWT cookie crafting
@@ -48,23 +48,6 @@ The challenges were carried out as optional activities and lasted 2 weeks, 1 for
   - m5 ~ cross site scripting (XSS) 2.0
   - m6 ~ blind SQL injection 2.0
 
-
-
-## How to run
-
-The command structure to be used to try to exploit all the challenges is as follows:
-  ```bash
-  python INPUT.py ; cat - | env -i ABSOLUTE_PATH/missionI
-  ```
-  Where:
-  - the **python** command allows you to run scripts to input to exploit challenges
-    > **note:** if you do not want to use a script you can use:
-      ```bash
-      python -c "print 'WHAT_TO_INSERT'"
-      ```
-  - the **cat -** command waits for further input from the standard input.
-  - the **env -i** command unsets the environment variable
-  - the **ABSOLUTE_PATH/missionI** command run the executable file
 
 
 # Final consideration
