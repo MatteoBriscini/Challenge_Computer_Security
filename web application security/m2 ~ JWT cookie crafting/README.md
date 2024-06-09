@@ -1,4 +1,4 @@
-# Mission 2 ~ [JWT](https://jwt.io/)cookie crafting
+# Mission 2 ~ JWT cookie crafting
 
 
 ## Goal and instructions
