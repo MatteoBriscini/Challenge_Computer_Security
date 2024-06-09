@@ -73,9 +73,9 @@ To complete the exploit, you need to follow the following steps:
    ```https
    https://web4.chall.necst.it/index.php?dir=./s3cr3ts/Marcie
    ```
-5. Copy the .txt file that appears along with all the previously printed names.
+5. Copy the *.txt* file that appears along with all the previously printed names.
    
-7. Open the site again and do loadFile of the previously found .txt file
+7. Open the site again and do loadFile of the previously found *.txt* file
    - Add a breakpoint in loadFile function
    - In the console call the function
      ```javascript
