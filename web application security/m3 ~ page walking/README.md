@@ -3,9 +3,7 @@
 
 ## Goal and instructions
 
-Can you [render](https://web3.chall.necst.it/) the flag of user `Marcie`? 
-
-Hint: can you retrieve the source code?
+Can you [render](https://web3.chall.necst.it/) the flag of user `Marcie`? Hint: can you retrieve the source code?
 
 
 ## Web app structure
