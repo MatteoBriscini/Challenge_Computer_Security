@@ -5,6 +5,7 @@
 Author: 
 - Matteo Briscini - [MatteoBriscini](https://github.com/MatteoBriscini)
 - Alessandro Conti - [AlessandroConti11](https://github.com/AlessandroConti11)
+- Giacomo Brunetta - [giacomo-brunetta](https://github.com/giacomo-brunetta)
 
 Tags: `#buffer_overflow`, `#C`, `#computer_security`, `#cookie`, `#cross-site_scripting`, `#format_string_bug`, `#JWT`, `#polimi`, `#python`, `#ROP`, `#spectre`, `#SQL_injection`, `#software_engineering`, `#XSS`.
 
