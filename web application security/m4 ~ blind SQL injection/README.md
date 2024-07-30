@@ -51,7 +51,7 @@ The whole procedure proceeds as follows:
     * In case of failure: reiterate on the next position
     * In case of success: you have found the secret word!
 
-We have provided the payload query below but the whole Python code is provided [here]()
+We have provided the payload query below but the whole Python code is provided [here](https://github.com/MatteoBriscini/Challenge_Computer_Security/blob/master/web%20application%20security/m4%20~%20blind%20SQL%20injection/exploit.py)
 ```
 query = "random' OR(gnome_name LIKE '" + gnome + "%' AND assigned_name LIKE 'Faith%')); --"
 ```
