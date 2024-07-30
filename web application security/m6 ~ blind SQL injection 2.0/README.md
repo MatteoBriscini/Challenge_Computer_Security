@@ -32,7 +32,7 @@ The only available solution is to use SIMILAR TO combined with the special chara
 1. Estimate the length of the secret word, adding one *'_'* at once, until the website returns the success page.
 2. Replace iteratively one *'_'* in order to estimate the the secret word
 
-We have provided the payload query below but the whole Python code is provided [here](injection/exploit.py)
+We have provided the payload query below but the whole Python code is provided [here](https://github.com/MatteoBriscini/Challenge_Computer_Security/blob/master/web%20application%20security/m6%20~%20blind%20SQL%20injection%202.0/exploit.py)
 ```
 query1 = "prova' OR gnome_name SIMILAR TO '"
 ```
